@@ -1,0 +1,67 @@
+@import url("../css/global.css");
+
+/* COURSES  */
+
+.courses__container {
+  padding-top: 76px;
+  padding-bottom: 50px;
+}
+
+.houers-study {
+  display: block;
+  margin-top: 13px;
+  margin-right: 5px;
+  margin-left: auto;
+}
+
+.courses__course {
+  position: relative;
+  background: content-box;
+  background-color: var(--dark-grey);
+  background-size: contain;
+  background-position: top;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.courses__content {
+  padding: 30px;
+  padding-bottom: 122px;
+  padding-top: calc(100% / 3);
+  background-size: 100%;
+}
+
+.courses__main-item {
+  margin-bottom: 22px;
+}
+
+.courses__cours-item {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: var(--bold);
+  line-height: 27px;
+
+}
+
+.courses__cours-item {
+  margin-bottom: 15px;
+}
+
+.courses__btn {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+}
+
+@media (max-width: 410px) {
+
+  .courses__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .courses__main-item {
+    font-size: 20px;
+    line-height: 26px
+  }
+}

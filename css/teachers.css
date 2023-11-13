@@ -1,0 +1,53 @@
+@import url("../css/global");
+
+/* TEACHERS  */
+
+.teachers__bg {
+  background-color: var(--purple);
+}
+
+.teachers__container {
+  padding-top: 75px;
+  padding-bottom: 36px;
+}
+
+.teachers__item {
+  color: var(--white);
+  margin-bottom: 22px;
+}
+
+.teachers__icon {
+  width: 100%;
+  min-height: 180px;
+  border-radius: 40px 40px 0 0;
+  margin-bottom: 30px;
+}
+
+.teachers__name {
+  margin-bottom: 15px;
+  color: var(--white);
+  font-weight: var(--white);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.teachers__descr {
+  color: var(--grey);
+}
+
+.teachers__teaher {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 410px) {
+
+  .teachers__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .teachers__item {
+    font-size: 20px;
+    line-height: 26px
+  }
+}

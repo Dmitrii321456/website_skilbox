@@ -1,0 +1,128 @@
+@import url("../css/global");
+
+/* ADVANTAGES  */
+
+.advantages__container {
+  padding-top: 80px;
+  padding-bottom: 44px;
+  background-color: var(--white);
+}
+
+.advantages__row-1 {
+  margin-bottom: 23px;
+}
+
+.advantages__col-1 {
+  display: flex;
+  align-items: center;
+}
+
+.advantages__item {
+  max-width: 380px;
+  color: var(--purple);
+  margin-bottom: 17px;
+}
+
+.advantages__description {
+  max-width: 585px;
+  color: var(--grey);
+}
+
+.advantages__content {
+  display: flex;
+  max-width: 350px;
+  min-height: 80px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 80px;
+}
+
+.advantages__content-text {
+  display: flex;
+  align-items: center;
+  color: var(--dark-brown);
+  font-size: 16px;
+  font-weight: var(--bold);
+  line-height: 19px;
+  padding-left: 110px;
+}
+
+
+.advantages__list {
+  display: flex;
+}
+
+.advantages__par:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+
+.advantages__list {
+  display: flex;
+}
+
+
+.advantages__par:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 1000px) {
+  .advantages__content {
+    display: flex;
+    max-width: 210px;
+    min-height: 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 80px;
+  }
+
+  .advantages__content-text {
+    padding-left: 0;
+    padding-top: 95px;
+  }
+}
+
+@media (max-width: 590px) {
+  .advantages__content {
+    display: flex;
+    max-width: 150px;
+    min-height: 80px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 80px;
+  }
+}
+
+@media (max-width:575px) {
+  .advantages__content {
+    display: flex;
+    max-width: 290px;
+    min-height: 80px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: 80px;
+  }
+
+  .advantages__content-text {
+    padding-left: 110px;
+    padding-top: 0;
+  }
+
+  .advantages__img {
+    display: none;
+  }
+}
+
+@media (max-width: 410px) {
+
+  .advantages__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--white);
+  }
+
+  .advantages__item {
+    font-size: 20px;
+    line-height: 26px
+  }
+}
